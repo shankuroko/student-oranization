@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faUser,faBars} from "@fortawesome/free-solid-svg-icons";
 function Header(){
   return (
 		<header className="header">
@@ -7,12 +9,13 @@ function Header(){
 			</a>
 
 			<nav className="navbar">
-				<a>home</a>
-				<a>about</a>
-				<a>Lectures</a>
+				<a>
+					<FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+					 {"   "}Login/Sign Up
+				</a>
 			</nav>
-
-			<div id="menu-bars" className="fas fa-bars"></div>
+			<FontAwesomeIcon id="menu-bars" icon={faBars}></FontAwesomeIcon>
+			
 		</header>
 	);
 }

@@ -5,7 +5,6 @@
     margin:2rem auto;
     max-width: 70rem;
 }
-
 .home .content h3{
     color:#fff;
     font-size: 4.5rem;
@@ -22,6 +21,7 @@
     height: 50rem;
     width:35rem;
 }
+
 
 .home .home-slider .swiper-slide img{
     height:100%;

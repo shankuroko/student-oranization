@@ -1,0 +1,45 @@
+
+.box{
+    border-radius: .5rem;
+    background: #333;
+    padding:2rem;
+    position: relative;
+}
+
+.box .fa-quote-right{
+    position: absolute;
+    top:2rem; right: 2rem;
+    color:var(--main-color);
+    font-size: 5rem;
+}
+
+.box .user{
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+    padding-bottom: 1rem;
+}
+
+.box .user img{
+    height:7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box .user h3{
+    font-size: 2rem;
+    color:#fff;
+}
+
+.box .user span{
+    font-size: 1.5rem;
+    color:#eee;
+}
+
+.box p{
+    line-height: 2;
+    color:#eee;
+    padding:.5rem 0;
+    font-size: 1.6rem;
+}

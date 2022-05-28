@@ -1,10 +1,9 @@
 import React from "react";
-import bg from "../images/bigData.jpg";
 import "../css/workshop.css";
-function Workshop(){
+function Workshop(props){
   return (
 		<a className="swiper-slide box">
-			<img src={bg} alt=""></img>
+			<img src={props.image} alt=""></img>
 			<h3 className="title">Workshop On Big Data</h3>
 			<div className="icons">
 				<a href="#" className="fas fa-share">
